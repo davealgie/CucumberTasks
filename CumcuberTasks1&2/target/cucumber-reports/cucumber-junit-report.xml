@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="10.507">
+    <testcase classname="Calculator addition" name="Integar addition" time="0.016">
+        <system-out><![CDATA[Given the number 4..........................................................passed
+And the second number 3.....................................................passed
+When the numbers are added..................................................passed
+Then the result should be 7.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Calculator addition" name="Integar addition 2" time="0.002">
+        <system-out><![CDATA[Given the number 0..........................................................passed
+And the second number 0.....................................................passed
+When the numbers are added..................................................passed
+Then the result should be 0.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bing search" name="Search" time="3.665">
+        <system-out><![CDATA[When I request bing.........................................................passed
+And I type "doge" into the search bar.......................................passed
+And I click search..........................................................passed
+Then the results page should feature "doge".................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bing search" name="Search_2" time="3.295">
+        <system-out><![CDATA[When I request bing.........................................................passed
+And I type "cat" into the search bar........................................passed
+And I click search..........................................................passed
+Then the results page should feature "cat"..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bing search" name="Search_3" time="3.34">
+        <system-out><![CDATA[When I request bing.........................................................passed
+And I type "lorry" into the search bar......................................passed
+And I click search..........................................................passed
+Then the results page should feature "lorry"................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
